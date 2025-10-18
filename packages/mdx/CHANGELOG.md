@@ -1,5 +1,25 @@
 # next-docs-mdx
 
+## 12.0.4
+
+### Patch Changes
+
+- 575cfb8: Include unravel plugin into `remark-include` parsing step, this ensures the parsed results are consistent with normal MDX.js processor output.
+- 1f1c787: Add `useContent` API to client loader for avoiding Lint errors
+- a5df956: Support `runtime: bun` and `runtime: node` in Vite index file generation
+- 5210f18: Support Fumadocs 16 in `peerDependencies`.
+- Updated dependencies [230c6bf]
+- Updated dependencies [851897c]
+- Updated dependencies [4049ccc]
+- Updated dependencies [429c41a]
+- Updated dependencies [5210f18]
+- Updated dependencies [cbc93e9]
+- Updated dependencies [42f09c3]
+- Updated dependencies [55afd8a]
+- Updated dependencies [5210f18]
+  - fumadocs-core@16.0.0
+  - @fumadocs/mdx-remote@1.4.3
+
 ## 12.0.3
 
 ### Patch Changes
